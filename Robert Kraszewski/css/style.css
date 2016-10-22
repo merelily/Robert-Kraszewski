@@ -15,14 +15,6 @@ img {
     width: 100%;
 }
 
-.my_top { 
-    background: #ffffff;
-}
-
-.my_hello { 
-    padding-bottom: 7%;
-}
-
 p, a { 
     font-family: 'Inconsolata', sans-serif;
 }
@@ -38,7 +30,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #my_nav {
-    background: #ffffff;
     border: none;
     padding-top: 1%;
     padding-bottom: 1%;
