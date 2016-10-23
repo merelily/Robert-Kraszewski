@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.c-form-container').backstretch("../img/bg.jpg");
+    $('.c-form-container').backstretch("assets/img/backgrounds/bg.jpg");
     
     /*
         Wow
