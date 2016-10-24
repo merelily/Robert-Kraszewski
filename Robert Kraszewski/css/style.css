@@ -125,12 +125,15 @@ a {
 .portfolioImages {
     background-repeat: no-repeat;
     height: 566px;
-    border: solid black 2px;
     text-align: center;
 }
 
+#Symbolic {
+    background-image: url(../img/1B.gif);
+}
+
 #Symbolic:hover {
-    background-image: url(../img/1B.jpg);
+    background-image: url(../img/1A.gif);
 }
 
 #Synthetic {
@@ -211,36 +214,6 @@ a {
 
 #Execution:hover {
     background-image: url(../img/10B.gif);
-}
-
-/***** MEDIA QUERIES *****/
-
-@media (min-width: 992px) and (max-width: 1199px) {}
-
-@media (min-width: 768px) and (max-width: 991px) {}
-
-@media (max-width: 767px) {
-	
-	.c-form-info-title { margin-top: 55px; }
-	
-}
-
-@media (max-width: 415px) {
-	
-	h1, h2 { font-size: 32px; }
-	
-	.c-form-top-right-icon {
-		position: static;
-		display: block; width: auto; height: auto; margin: 0; background: none;
-		font-size: 46px; color: #42bfc2; line-height: 50px; text-align: right;
-		-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
-	}
-	.c-form-top-right-icon:after {
-		position: static; content: none; top: auto; left: auto; width: auto; height: auto;
-		background: none; z-index: -999999;
-		-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
-	}
-	
 }
 
 /*MEDIA QUERIE XS*/
